@@ -1,0 +1,18 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": "Um novo evento",
+  "details": null,
+  "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/08a0eb10-9310-4787-9f77-6f029498e73c/attendees
+Content-Type: application/json
+
+{
+  "name": "Diego Fernandes",
+  "email": "diego@rocketseat.com.br"
+}
